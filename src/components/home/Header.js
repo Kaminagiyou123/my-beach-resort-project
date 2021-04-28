@@ -9,7 +9,7 @@ const Header = () => {
       <Banner
         greeting='welcome to'
         title='beachwalk resort'
-        text='  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia voluptates, quidem nulla ipsam laboriosam!'
+        text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia voluptates, quidem nulla ipsam laboriosam!'
       >
         <PrimaryBtn t='1rem'>View Details</PrimaryBtn>
       </Banner>

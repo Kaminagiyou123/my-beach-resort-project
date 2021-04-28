@@ -62,13 +62,14 @@ const BannerWrapper = styled(Banner)`
   }
   p {
     width: 85%;
-    margin: 0;
+    margin: 0 auto;
   }
 
   ${media.tablet`width: 70vw;
     ${setBorder({ width: "6px", color: setColor.primaryColor })};
     p {
       width: 75%;
+      margin:0 auto;
     }`}
 
   h1 {
