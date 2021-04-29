@@ -67,3 +67,9 @@ export const setTransition = ({
 } = {}) => {
   return `transition:${property} ${time} ${timing}`;
 };
+
+export const setShadow = {
+  light: "box-shadow:3px 3px 15px 5px #000000",
+  dark: "box-shadow:6px 6px 15px 5px #000000",
+  darkest: "box-shadow:10px 10px 15px 5px #000000",
+};

@@ -3,7 +3,7 @@ import { setRem, setColor } from "../../Styles";
 
 const Section = styled.section`
   padding: ${setRem(64)} 0;
-  background: ${setColor.mainWhite};
+  background: ${(props) => props.color || setColor.mainWhite};
 `;
 
 export default Section;

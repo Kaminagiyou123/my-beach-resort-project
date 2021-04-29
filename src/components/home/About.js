@@ -53,7 +53,8 @@ const AboutCenter = styled.div`
   width: 90vw;
   margin: 0 auto;
   ${media.desktop`
-  .about-img {
+  .about-img,
+  .about-info {
     padding: ${setRem(0)};
   }
   width:100vw;
@@ -61,8 +62,9 @@ const AboutCenter = styled.div`
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-column-gap:${setRem(32)};
-  .about-img{
+  .about-img,.about-info{
    align-self:center;
+
   }
   .about-info{
    p{
